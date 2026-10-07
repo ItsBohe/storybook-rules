@@ -495,7 +495,7 @@
    "audience": [
     "players"
    ],
-   "summary": "How to claim, play and transfer advantages.",
+   "summary": "How to find, play and transfer advantages.",
    "keywords": [
     "advantage",
     "advantages",
@@ -506,18 +506,20 @@
     "play",
     "transfer",
     "gift",
+    "find",
+    "obtain",
     "claim",
     "expire",
     "conditional"
    ],
    "body": [
     {
-     "p": "**Finding and claiming**"
+     "p": "**Finding one**"
     },
     {
      "ul": [
       "How advantages are found changes every season. The season's announcements explain it.",
-      "Claim an advantage within the time its instructions give you. If you don't, it expires and goes back into the game.",
+      "Once you find or obtain an advantage, it's yours. You don't need to claim it, unless its instructions say otherwise.",
       "Each advantage says how it's played, whether it works in a re-vote, and when it expires. If anything is unclear, ask production."
      ]
     },
