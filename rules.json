@@ -1,0 +1,1112 @@
+{
+ "title": "Storybook Survivor Rules",
+ "updated": "October 2026",
+ "url": "https://REPLACE-WITH-YOUR-PAGE-URL/",
+ "groups": [
+  "Start here",
+  "Conduct",
+  "Playing the game",
+  "Consequences",
+  "Jury and Final Tribal Council",
+  "Fine print"
+ ],
+ "audiences": {
+  "everyone": "Everyone",
+  "players": "Players",
+  "spectators": "Spectators",
+  "jurors": "Jurors"
+ },
+ "quickref": [
+  {
+   "label": "Episodes",
+   "text": "Most episodes last 48 hours",
+   "section": "episodes"
+  },
+  {
+   "label": "Strikes",
+   "text": "3 strikes and you're out of the game",
+   "section": "strikes"
+  },
+  {
+   "label": "Voting",
+   "text": "Always vote with !submitvote",
+   "section": "voting"
+  },
+  {
+   "label": "Challenges",
+   "text": "No outside help: no AI, no friends, no editing tools",
+   "section": "cheating"
+  },
+  {
+   "label": "Talking",
+   "text": "No DMs. Use your 1-on-1 channels, or a voice call with a host in it",
+   "section": "communication"
+  },
+  {
+   "label": "Spectators",
+   "text": "Never talk to players about the game",
+   "section": "spectators"
+  },
+  {
+   "label": "Confessionals",
+   "text": "Post at least once every episode",
+   "section": "confessionals"
+  },
+  {
+   "label": "Jury",
+   "text": "Ask a question and vote within 48 hours, or your vote doesn't count",
+   "section": "jury-voting"
+  }
+ ],
+ "sections": [
+  {
+   "id": "start",
+   "group": "Start here",
+   "title": "How these rules work",
+   "audience": [
+    "everyone"
+   ],
+   "summary": "Who the rules cover and what to do when something isn't covered.",
+   "keywords": [
+    "about",
+    "agree",
+    "help",
+    "question",
+    "unsure"
+   ],
+   "body": [
+    {
+     "p": "These rules cover everyone in the Storybook Survivor server: players, spectators, jurors and alumni. By joining a season or the server, you agree to them."
+    },
+    {
+     "p": "You don't need to memorize everything. Start with the Quick Reference, then read the sections for where you are right now. Use the filter at the top to show only the rules that apply to you."
+    },
+    {
+     "p": "If something isn't covered here, or you're not sure whether something is allowed, ask production before you do it. Asking first never counts against you."
+    },
+    {
+     "p": "Rules here apply every season. Anything specific to one season (twists, advantages, how challenges work) is explained in that season's announcements."
+    }
+   ]
+  },
+  {
+   "id": "respect",
+   "group": "Conduct",
+   "title": "Respect",
+   "audience": [
+    "everyone"
+   ],
+   "summary": "No discrimination, no harassment, no stirring up drama.",
+   "keywords": [
+    "discrimination",
+    "harassment",
+    "drama",
+    "negativity",
+    "pronouns",
+    "ban",
+    "mute",
+    "uncomfortable",
+    "conduct"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Discrimination of any kind is strictly prohibited.",
+      "Repeated negativity aimed at a specific person gets a private warning, then a final warning, then a ban.",
+      "Trying to start personal drama or unnecessary conflict gets a private talk with production. If it keeps happening, you'll be muted.",
+      "Respect everyone's pronouns. You can show yours in #roles. Getting it wrong by accident gets a friendly reminder. Doing it repeatedly gets a private warning.",
+      "If you feel uncomfortable with how someone is treating you, message production privately. We're here to help.",
+      "Production has the final say on what counts as disrespect."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "communication",
+   "group": "Conduct",
+   "title": "Talking to other players",
+   "audience": [
+    "players"
+   ],
+   "summary": "All game talk happens inside the Storybook server, in your 1-on-1 channels.",
+   "keywords": [
+    "dm",
+    "dms",
+    "direct message",
+    "1-on-1",
+    "one on one",
+    "external",
+    "platform",
+    "texting",
+    "social media",
+    "communication"
+   ],
+   "body": [
+    {
+     "ul": [
+      "All game conversation happens inside the Storybook Survivor server. Use your 1-on-1 channels to talk to one other player.",
+      "Do not DM other players. Personal Discord DMs, social media, texting, other apps, or anything outside this server counts as cheating.",
+      "Do not talk about the game with spectators in any way. Even casual chat about the game counts as a violation."
+     ]
+    },
+    {
+     "p": "Voice calls have their own rules. See Voice calls."
+    }
+   ]
+  },
+  {
+   "id": "voice-calls",
+   "group": "Conduct",
+   "title": "Voice calls",
+   "audience": [
+    "players"
+   ],
+   "summary": "Private calls are allowed if a host is in the call.",
+   "keywords": [
+    "vc",
+    "voice",
+    "call",
+    "calls",
+    "voice chat",
+    "host"
+   ],
+   "body": [
+    {
+     "ul": [
+      "You're allowed to talk game in a private voice call with other players, as long as a host is added to the call.",
+      "Add the host before you start talking about the game, not partway through.",
+      "Share anything important from the call in your confessional so spectators can follow along.",
+      "Calls without a host count as communicating outside the game."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spectators",
+   "group": "Conduct",
+   "title": "Spectator rules",
+   "audience": [
+    "spectators"
+   ],
+   "summary": "Never talk to players about the game, and never hint at what you know.",
+   "keywords": [
+    "spectator",
+    "spectators",
+    "reader",
+    "avid reader",
+    "react",
+    "reaction",
+    "emoji",
+    "spoiler",
+    "hint",
+    "leak"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Do not talk to active players about the game in any way.",
+      "Do not react to or comment on game events in a way that could hint at private information. That includes emoji reactions, vague comments, or anything an active player could pick up on.",
+      "Reactions are turned off in game channels for spectators, so this is mostly handled for you. The rule still applies everywhere else in the server.",
+      "Avid Readers can see more than Readers (like alliance chats and in-depth recaps). Keep anything you learned from Avid channels inside Avid channels."
+     ]
+    },
+    {
+     "p": "Spectators who break these rules can lose access to spectator channels or be removed from the server."
+    }
+   ]
+  },
+  {
+   "id": "after-elimination",
+   "group": "Conduct",
+   "title": "After you're voted out",
+   "audience": [
+    "players",
+    "jurors"
+   ],
+   "summary": "What you can and can't talk about once you're out, and after the season.",
+   "keywords": [
+    "eliminated",
+    "voted out",
+    "boot",
+    "pre-jury",
+    "prejury",
+    "after the season",
+    "spoil",
+    "post-game"
+   ],
+   "body": [
+    {
+     "ul": [
+      "If you're out and not on the jury, don't discuss active game information in any public channel or anywhere outside the server.",
+      "Jurors follow the Jury conduct rules instead.",
+      "Keep treating every player with respect after you're out and after the season ends.",
+      "Publicly spoiling results, sharing private game conversations without the other person's consent, or harassing players after the fact can get you banned from future seasons."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cheating",
+   "group": "Conduct",
+   "title": "Cheating",
+   "audience": [
+    "players"
+   ],
+   "summary": "Instant ban, and other ORG hosts are warned.",
+   "keywords": [
+    "cheat",
+    "cheating",
+    "ai",
+    "chatgpt",
+    "screenshot",
+    "alt",
+    "alt account",
+    "photoshop",
+    "loophole",
+    "exploit",
+    "friend",
+    "help"
+   ],
+   "body": [
+    {
+     "note": "Breaking any rule in this section gets you banned immediately, and other ORG hosts are warned."
+    },
+    {
+     "ul": [
+      "Don't send screenshots of in-game conversations anywhere except your own confessional.",
+      "You may copy and paste conversations, but leave out timestamps. Anything copy-pasted could have been edited by whoever sent it, so treat pasted conversations with caution.",
+      "No alt accounts unless production approved it beforehand, which is very rare. Using one gets both the alt and your main account banned.",
+      "Don't take advantage of host mistakes. If you notice one, tell production.",
+      "Don't get any help on a challenge that production hasn't explicitly allowed. That includes using AI to solve a puzzle you're meant to solve, editing a screenshot to change your score, or having a friend do a challenge for you.",
+      "Hunting for loopholes (using clever wording or production's good nature to get around a rule) will be called out and stopped. Keep doing it and it's treated as cheating."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "episodes",
+   "group": "Playing the game",
+   "title": "How an episode works",
+   "audience": [
+    "players"
+   ],
+   "summary": "Most episodes last 48 hours: a challenge, a vote, and a trust ranking.",
+   "keywords": [
+    "episode",
+    "48 hours",
+    "schedule",
+    "deadline",
+    "timezone",
+    "cycle",
+    "tasks"
+   ],
+   "body": [
+    {
+     "p": "Most episodes last 48 hours. During each one you have three jobs:"
+    },
+    {
+     "table": {
+      "head": [
+       "Job",
+       "What to do"
+      ],
+      "rows": [
+       [
+        "Challenge",
+        "Compete in the immunity challenge, or formally abstain before the deadline. See Abstaining and sitting out."
+       ],
+       [
+        "Vote",
+        "Vote at Tribal Council if your tribe is going. See Voting at Tribal Council."
+       ],
+       [
+        "Trust ranking",
+        "Rank your tribe from most trusted to least trusted, in your confessional."
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "Some episodes run longer or follow different steps (swaps, break days, special twists). When that happens, the episode announcement explains exactly what's different.",
+      "A challenge can end early if its format allows, which gives Tribal Council more time.",
+      "Every deadline is shown in your own timezone. You never need to convert times."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenges",
+   "group": "Playing the game",
+   "title": "Challenges",
+   "audience": [
+    "players"
+   ],
+   "summary": "Instructions go up in #challenges. One attempt unless the instructions say otherwise.",
+   "keywords": [
+    "challenge",
+    "immunity",
+    "instructions",
+    "attempt",
+    "score",
+    "void",
+    "tiebreaker",
+    "clarification",
+    "submit"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Challenge instructions are posted in #challenges at the start of each episode. Read them there before asking questions.",
+      "Clarifications are posted with a ping in #challenge-results.",
+      "You get one answer or attempt per challenge unless the instructions say otherwise.",
+      "Breaking a challenge rule voids your score. Voided scores are final and you can't redo the challenge unless production says so.",
+      "If two scores tie, production uses the tiebreaker in the instructions. If the instructions don't list one, production picks one.",
+      "Anything the instructions don't cover is up to production."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sit-outs",
+   "group": "Playing the game",
+   "title": "Abstaining and sitting out",
+   "audience": [
+    "players"
+   ],
+   "summary": "Abstain on purpose and say so, or it's a strike. No sitting out two in a row.",
+   "keywords": [
+    "abstain",
+    "abstention",
+    "sit out",
+    "sitout",
+    "sit-out",
+    "uneven",
+    "skip",
+    "dns",
+    "dnf",
+    "back to back"
+   ],
+   "body": [
+    {
+     "ul": [
+      "To skip a challenge without a strike, you have to formally abstain: say clearly in your submission channel that you're abstaining, before the deadline.",
+      "If you just don't submit, that's a DNS (did not submit) and you get a strike.",
+      "When tribes have different numbers of players, the bigger tribes sit people out so every tribe competes with the same number.",
+      "During the tribe phase, you can't abstain or sit out two challenges in a row."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "voting",
+   "group": "Playing the game",
+   "title": "Voting at Tribal Council",
+   "audience": [
+    "players",
+    "jurors"
+   ],
+   "summary": "Vote with !submitvote. You can change it until the deadline or until you lock it.",
+   "keywords": [
+    "vote",
+    "voting",
+    "tribal",
+    "tribal council",
+    "submitvote",
+    "!submitvote",
+    "parchment",
+    "lock",
+    "locked",
+    "deadline",
+    "24 hours"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Every vote is cast with the command **!submitvote** in your submission channel. It asks you for your parchment image, and once you send it your vote is recorded.",
+      "You can submit a new vote any time before the Tribal Council deadline. Your latest vote is the one that counts.",
+      "If you lock your vote, it can't be changed.",
+      "You can't abstain from voting.",
+      "Tribal Council lasts at least 24 hours, unless everyone attending locks their vote or the episode announcement says otherwise.",
+      "Not using !submitvote gets one warning. After that it's an automatic strike."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vote-reading",
+   "group": "Playing the game",
+   "title": "During the vote reading",
+   "audience": [
+    "players",
+    "spectators",
+    "jurors"
+   ],
+   "summary": "Stay quiet in tribe, tribal and alliance channels while votes are read.",
+   "keywords": [
+    "vote reading",
+    "reading",
+    "read",
+    "quiet",
+    "silent",
+    "tribal"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Don't talk in your tribe channel, the Tribal Council channel, or any alliance channel while the votes are being read.",
+      "Advantages can't be given to another player during the vote reading."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ties",
+   "group": "Playing the game",
+   "title": "Ties, re-votes and rocks",
+   "audience": [
+    "players"
+   ],
+   "summary": "A tie means a re-vote. A deadlocked re-vote means rocks.",
+   "keywords": [
+    "tie",
+    "ties",
+    "revote",
+    "re-vote",
+    "rocks",
+    "rock draw",
+    "deadlock"
+   ],
+   "body": [
+    {
+     "ul": [
+      "If the vote ties, there's a re-vote that lasts up to 24 hours.",
+      "During a re-vote, all alliance and 1-on-1 conversation is off limits.",
+      "If the re-vote also deadlocks, there's a rock draw. Immune players and the players who were tied are safe. Everyone else draws, and whoever draws the odd rock is eliminated.",
+      "Each advantage says whether it can be used in a re-vote."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "advantages",
+   "group": "Playing the game",
+   "title": "Advantages and idols",
+   "audience": [
+    "players"
+   ],
+   "summary": "How to claim, play and transfer advantages.",
+   "keywords": [
+    "advantage",
+    "advantages",
+    "idol",
+    "idols",
+    "extra vote",
+    "steal a vote",
+    "play",
+    "transfer",
+    "gift",
+    "claim",
+    "expire",
+    "conditional"
+   ],
+   "body": [
+    {
+     "p": "**Finding and claiming**"
+    },
+    {
+     "ul": [
+      "How advantages are found changes every season. The season's announcements explain it.",
+      "Claim an advantage within the time its instructions give you. If you don't, it expires and goes back into the game.",
+      "Each advantage says how it's played, whether it works in a re-vote, and when it expires. If anything is unclear, ask production."
+     ]
+    },
+    {
+     "p": "**Playing one at Tribal Council**"
+    },
+    {
+     "ul": [
+      "Before the vote reading starts, you must do one of these: tell production exactly how you're playing it, or tell production you might play it live.",
+      "During Tribal Council, production will say: \"If anyone has an idol or an advantage and would like to play it, now is the time to do so.\" You get about 10 to 20 seconds to play it.",
+      "You can set conditions, like \"If Player A plays an idol, play my idol on Player B.\" If the condition doesn't happen, your advantage isn't used and you keep it."
+     ]
+    },
+    {
+     "p": "**Giving one away**"
+    },
+    {
+     "ul": [
+      "Each advantage says whether it can be transferred.",
+      "If you send an advantage to someone, production always tells them who sent it.",
+      "You can't give an advantage away during a vote reading, or right after you've been voted out."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alliances",
+   "group": "Playing the game",
+   "title": "Alliances",
+   "audience": [
+    "players"
+   ],
+   "summary": "3 or more players. Request one in your submission channel.",
+   "keywords": [
+    "alliance",
+    "alliances",
+    "request",
+    "add member",
+    "archive",
+    "merge",
+    "swap",
+    "group chat"
+   ],
+   "body": [
+    {
+     "ul": [
+      "An alliance needs 3 or more players from the same tribe. Request it in your submission channel and list who's in it.",
+      "Every alliance channel opens with a note saying who asked for it.",
+      "You can add someone later if every current member agrees. Post in the alliance channel with everyone's confirmation and production will add them.",
+      "Alliances carry through the merge. After the merge, members no longer need to be on the same tribe.",
+      "An alliance is archived when only 2 members are left in the game, when an identical alliance already exists, or when a swap separates its members.",
+      "Don't talk in alliance channels during a vote reading."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "confessionals",
+   "group": "Playing the game",
+   "title": "Confessionals and trust rankings",
+   "audience": [
+    "players"
+   ],
+   "summary": "Your space to talk to the audience. Use it every episode.",
+   "keywords": [
+    "confessional",
+    "confessionals",
+    "trust ranking",
+    "trust rankings",
+    "ranking",
+    "prompt",
+    "prompts",
+    "spectators"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Your confessional is your space. Share your thoughts, strategy, feelings, anything. Spectators read it, so the more you post, the better your story.",
+      "You must post in your confessional at least once every episode, or you get a strike.",
+      "The best way to cover it: answer that episode's confessional question. Production posts one most episodes.",
+      "Post your trust ranking in your confessional each episode. Spectators will see it.",
+      "Don't put votes, game commands or alliance requests in your confessional. Those go in your submission channel. Anything posted in the wrong channel might not count.",
+      "Your confessional still follows the Respect rules."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "participation",
+   "group": "Playing the game",
+   "title": "Staying active",
+   "audience": [
+    "players"
+   ],
+   "summary": "Stay engaged. Extreme inactivity can get you removed without warning.",
+   "keywords": [
+    "inactive",
+    "inactivity",
+    "activity",
+    "unresponsive",
+    "other orgs",
+    "multiple orgs",
+    "participation",
+    "ejection"
+   ],
+   "body": [
+    {
+     "ul": [
+      "When you join a season, we expect you to stay active and engaged the whole way through.",
+      "Extreme inactivity can get you removed without warning, no matter how many strikes you have.",
+      "You're allowed to play other ORGs at the same time. Just be honest during casting about how many you plan to play. Being dishonest about it seriously hurts your chances of being cast again."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "extensions",
+   "group": "Playing the game",
+   "title": "Emergencies and extensions",
+   "audience": [
+    "players"
+   ],
+   "summary": "Real emergency? Tell production as early as you can.",
+   "keywords": [
+    "emergency",
+    "extension",
+    "extensions",
+    "late",
+    "miss",
+    "deadline",
+    "excuse"
+   ],
+   "body": [
+    {
+     "ul": [
+      "If a real emergency is going to make you miss a deadline, tell production as early as you can and ask for an extension.",
+      "Extensions are up to production and aren't guaranteed.",
+      "You can't ask for an extension after the deadline has passed."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strikes",
+   "group": "Consequences",
+   "title": "Strikes",
+   "audience": [
+    "players"
+   ],
+   "summary": "3 strikes and you're out of the game.",
+   "keywords": [
+    "strike",
+    "strikes",
+    "3 strikes",
+    "three strikes",
+    "ejected",
+    "ejection",
+    "penalty",
+    "punishment",
+    "dns",
+    "self-vote"
+   ],
+   "body": [
+    {
+     "p": "You get a strike for each of these, every episode it happens:"
+    },
+    {
+     "table": {
+      "head": [
+       "What happened",
+       "What you get"
+      ],
+      "rows": [
+       [
+        "You didn't vote by the deadline",
+        "A strike, and you're recorded as voting for yourself"
+       ],
+       [
+        "You didn't submit a challenge score and didn't abstain (DNS)",
+        "A strike, and your score is void"
+       ],
+       [
+        "You didn't post a trust ranking",
+        "A strike"
+       ],
+       [
+        "You didn't post in your confessional at least once",
+        "A strike"
+       ]
+      ]
+     }
+    },
+    {
+     "note": "3 strikes means you're out of the game. If you strike out during the jury phase, you don't get a spot on the jury."
+    }
+   ]
+  },
+  {
+   "id": "discipline",
+   "group": "Consequences",
+   "title": "Other rule breaks",
+   "audience": [
+    "players",
+    "spectators"
+   ],
+   "summary": "Handled case by case, usually with a private message first.",
+   "keywords": [
+    "warning",
+    "warnings",
+    "discipline",
+    "punishment",
+    "violation",
+    "mute",
+    "ban"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Every other rule break is handled case by case.",
+      "Production will message you privately before doing anything, unless it's serious (like cheating or discrimination).",
+      "Breaking a rule again after a warning gets whatever consequence production decides."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quitting",
+   "group": "Consequences",
+   "title": "Quitting",
+   "audience": [
+    "players"
+   ],
+   "summary": "Quit in your submission channel. Quitters don't make the jury.",
+   "keywords": [
+    "quit",
+    "quitting",
+    "leave",
+    "leaving",
+    "soft quit",
+    "banned",
+    "deactivated",
+    "left the server"
+   ],
+   "body": [
+    {
+     "ul": [
+      "To leave the game, post that you're quitting in your submission channel.",
+      "No one has to vote you out or go along with it if you ask to be voted out or stop playing on purpose.",
+      "Quitting means you can't be on that season's jury.",
+      "If your Discord account gets banned, deactivated, or leaves the server during the game, it counts as quitting.",
+      "If a quit causes jury problems (like a possible tie at Final Tribal Council), production decides how to fix it."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jury-conduct",
+   "group": "Jury and Final Tribal Council",
+   "title": "Jury conduct",
+   "audience": [
+    "jurors"
+   ],
+   "summary": "Never talk to active players about the game. Keep ponderosa respectful.",
+   "keywords": [
+    "jury",
+    "juror",
+    "jurors",
+    "ponderosa",
+    "conduct",
+    "react",
+    "reaction"
+   ],
+   "body": [
+    {
+     "ul": [
+      "The only place jurors can talk about the game is ponderosa. Not spectator channels, not DMs, not anywhere outside the server.",
+      "Don't talk to active players about the game in any way.",
+      "Follow the Respect rules in ponderosa. Breaking them can get your ponderosa access limited or removed.",
+      "Don't publicly react to vote results in a way that could hint at private game information.",
+      "Breaking jury rules can get you removed from the jury."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ftc",
+   "group": "Jury and Final Tribal Council",
+   "title": "How Final Tribal Council works",
+   "audience": [
+    "jurors",
+    "players",
+    "spectators"
+   ],
+   "summary": "Opening statements, then 48 hours to ask questions and vote.",
+   "keywords": [
+    "ftc",
+    "final tribal",
+    "final tribal council",
+    "opening statement",
+    "opening statements",
+    "finalist",
+    "finalists",
+    "questioning",
+    "winner"
+   ],
+   "body": [
+    {
+     "p": "Final Tribal Council starts right after the last vote-out, once the jury is set."
+    },
+    {
+     "table": {
+      "head": [
+       "Step",
+       "How long",
+       "What happens"
+      ],
+      "rows": [
+       [
+        "Opening statements",
+        "24 hours",
+        "Each finalist submits an opening statement. Late statements are still accepted, but once 24 hours are up the statements are posted and questioning opens either way."
+       ],
+       [
+        "Questions and votes",
+        "48 hours from when opening statements are posted",
+        "Jurors ask the finalists questions and cast their vote for a winner with !submitvote. The deadline is firm."
+       ],
+       [
+        "Winner reveal",
+        "After the deadline",
+        "Production reads the votes and announces the winner."
+       ]
+      ]
+     }
+    },
+    {
+     "p": "Production announces the exact time opening statements go up each season, so you'll know your deadline in advance. It's shown in your own timezone."
+    }
+   ]
+  },
+  {
+   "id": "jury-voting",
+   "group": "Jury and Final Tribal Council",
+   "title": "Juror voting rules",
+   "audience": [
+    "jurors",
+    "players"
+   ],
+   "summary": "Ask at least one question, and vote within 48 hours. No exceptions.",
+   "keywords": [
+    "jury vote",
+    "juror vote",
+    "eligible",
+    "eligibility",
+    "question",
+    "questions",
+    "48 hours",
+    "deadline",
+    "no exceptions",
+    "ftc vote"
+   ],
+   "body": [
+    {
+     "note": "These two rules have no exceptions."
+    },
+    {
+     "ul": [
+      "**You must ask at least one question to vote.** Any finalist, any time during questioning, counts. A juror who hasn't asked a question by the deadline doesn't get a vote, even if they submitted one.",
+      "**Votes are due 48 hours after opening statements are posted.** Production announces the posting time each season. Any vote that comes in after the deadline doesn't count. There are no extensions.",
+      "You can ask your question and vote in any order, as long as both happen before the deadline. Asking early is the safe move.",
+      "Vote with !submitvote in your jury submission channel, the same way you voted in the game."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ftc-ties",
+   "group": "Jury and Final Tribal Council",
+   "title": "Ties at Final Tribal Council",
+   "audience": [
+    "jurors",
+    "players"
+   ],
+   "summary": "If two finalists tie, the third finalist breaks it.",
+   "keywords": [
+    "ftc tie",
+    "tie",
+    "tiebreak",
+    "tiebreaker",
+    "final tribal tie",
+    "three way"
+   ],
+   "body": [
+    {
+     "ul": [
+      "If two finalists tie on votes, the third finalist (the one who isn't tied) becomes the final juror and casts the tiebreaking vote.",
+      "In the very rare case of a three-way tie, production decides the fairest way to settle it."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "final-say",
+   "group": "Fine print",
+   "title": "Production has the final say",
+   "audience": [
+    "everyone"
+   ],
+   "summary": "Hosts decide every ruling. Rule changes apply right away.",
+   "keywords": [
+    "production",
+    "hosts",
+    "final say",
+    "ruling",
+    "rule change",
+    "changes"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Hosts have the final say on every part of a Storybook Survivor season.",
+      "Rule changes take effect immediately. Changes are listed in the changelog at the bottom of this page."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "allowed",
+   "group": "Fine print",
+   "title": "What's allowed",
+   "audience": [
+    "everyone"
+   ],
+   "summary": "Allowed unless a rule or production says otherwise. Gaming the wording isn't.",
+   "keywords": [
+    "allowed",
+    "permitted",
+    "legal",
+    "can i",
+    "loophole",
+    "wording"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Anything is allowed as long as it doesn't break a written rule and production hasn't told you not to.",
+      "That doesn't cover deliberately twisting the wording of a rule to get around what it obviously means. That's loophole-seeking (see Cheating)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metagaming",
+   "group": "Fine print",
+   "title": "Metagaming",
+   "audience": [
+    "players"
+   ],
+   "summary": "Don't let outside history or friendships decide in-game moves.",
+   "keywords": [
+    "metagame",
+    "metagaming",
+    "meta",
+    "outside relationships",
+    "org history",
+    "returnee",
+    "returnees",
+    "pregame"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Metagaming means using information from outside this game (other ORGs, past seasons, real-life friendships) to make in-game decisions. It's strongly discouraged.",
+      "Production can step in on serious cases.",
+      "Returnee seasons are the one exception, since history is part of the point."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "casting",
+   "group": "Fine print",
+   "title": "Casting",
+   "audience": [
+    "everyone"
+   ],
+   "summary": "Casting decisions are final. Banned players can't reapply.",
+   "keywords": [
+    "casting",
+    "cast",
+    "apply",
+    "application",
+    "applications",
+    "banned",
+    "reapply"
+   ],
+   "body": [
+    {
+     "ul": [
+      "Production makes every casting decision, and decisions are final.",
+      "Banned players can't reapply.",
+      "Production can turn down any application without giving a reason."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conflicts",
+   "group": "Fine print",
+   "title": "Conflicts of interest",
+   "audience": [
+    "everyone"
+   ],
+   "summary": "A host with a conflict can step back from a ruling.",
+   "keywords": [
+    "conflict",
+    "conflict of interest",
+    "bias",
+    "fair",
+    "recuse"
+   ],
+   "body": [
+    {
+     "ul": [
+      "If a production member has a conflict of interest in a ruling, they can step back from it, by their own choice or another production member's.",
+      "Production always aims to make fair, unbiased decisions."
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Abstain",
+   "def": "Choosing to skip a challenge and saying so before the deadline. No strike."
+  },
+  {
+   "term": "DNS",
+   "def": "Did not submit. You skipped a challenge without abstaining. Strike."
+  },
+  {
+   "term": "DNF",
+   "def": "Did not finish. You started but didn't finish properly or broke a challenge rule. How it's scored depends on the challenge."
+  },
+  {
+   "term": "Sit out",
+   "def": "When tribes are uneven, the bigger tribes sit players out so everyone competes with the same number."
+  },
+  {
+   "term": "Parchment",
+   "def": "The image you send with !submitvote that shows who you voted for."
+  },
+  {
+   "term": "Locked vote",
+   "def": "A vote you've marked as final. It can't be changed."
+  },
+  {
+   "term": "Re-vote",
+   "def": "A second vote after a tie, with no alliance or 1-on-1 talk allowed."
+  },
+  {
+   "term": "Ponderosa",
+   "def": "Where the jury hangs out after being voted out."
+  },
+  {
+   "term": "Reader / Avid Reader",
+   "def": "Spectator roles. Avid Readers are verified spectators who can see more, like alliance chats."
+  },
+  {
+   "term": "FTC",
+   "def": "Final Tribal Council, where the jury picks the winner."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "10/2026",
+   "change": "Moved the rules to this page. Added juror voting rules: jurors must ask at least one question to vote, and votes are due 48 hours after opening statements are posted. Voice calls now need a host in the call. Confessionals need at least one post per episode, ideally answering that episode's confessional question. Jurors can only talk about the game in ponderosa. Combined the two vote strikes into one. The vote command is now !submitvote (one exclamation mark). Challenge clarifications now go in #challenge-results. Spectator reactions are now turned off in game channels. Added a glossary."
+  },
+  {
+   "date": "4/21/26",
+   "change": "Voting moved to a single vote command."
+  },
+  {
+   "date": "3/3/26",
+   "change": "Added Staying active, spectator rules, account ban/deactivation counts as quitting, advantage transfer rules. Expanded jury conduct and Final Tribal Council."
+  },
+  {
+   "date": "3/1/26",
+   "change": "Full restructure. Added jury, FTC, advantage, post-game, platform, casting and loophole rules."
+  }
+ ]
+}
