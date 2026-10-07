@@ -6,44 +6,54 @@
 <title>Storybook Survivor Rules</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=JetBrains+Mono:wght@500&display=swap">
+<script>try{var t=localStorage.getItem("sbs-rules-theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}</script>
 <style>
 /* Layout: a field-guide rulebook. Sticky search + audience filter up top,
    quick-reference cards, then a sticky contents rail beside the rule sections. */
 :root{
-  --bg:#F4F6F3; --surface:#FFFFFF; --ink:#15201A; --muted:#56635B; --line:#D9E0DA;
-  --accent:#1E6B50; --accent-soft:#E2EFE8; --accent-ink:#FFFFFF;
-  --flag:#A64B17; --flag-soft:#FBEDE3; --mark:#FFE59A; --mark-ink:#15201A;
-  --font-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
-  --font-body:"Atkinson Hyperlegible", "Verdana", system-ui, sans-serif;
+  --bg:#F6F1FB; --surface:#FFFFFF; --ink:#241A33; --muted:#655A78; --line:#E0D5EE;
+  --accent:#B0178F; --accent-soft:#EDE0F9; --accent-ink:#FFFFFF;
+  --flag:#F0308F; --flag-soft:#FFE6F2; --mark:#FFC2E2; --mark-ink:#241A33;
+  --lilac:#B79CED; --g1:#6F45C9; --g2:#B0178F; --g3:#E3247F;
+  --grad:linear-gradient(90deg,var(--g1),var(--g2),var(--g3));
+  --font-display:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body:"Inter", "Segoe UI", system-ui, sans-serif;
   --font-mono:"JetBrains Mono", ui-monospace, "Consolas", monospace;
   --radius:10px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#0F1512; --surface:#17201B; --ink:#E7EEE9; --muted:#9DABA3; --line:#2A3630;
-    --accent:#62C9A0; --accent-soft:#1D3229; --accent-ink:#0B1712;
-    --flag:#F2A170; --flag-soft:#33241A; --mark:#6B5713; --mark-ink:#FFF6D8;
+    --bg:#150F1E; --surface:#1F1729; --ink:#EFE8F7; --muted:#AB9FBD; --line:#33273F;
+    --accent:#F27BCB; --accent-soft:#33204A; --accent-ink:#1E0A1C;
+    --flag:#FF5FA8; --flag-soft:#3A1830; --mark:#7A1F5C; --mark-ink:#FFE9F6;
+    --lilac:#9B7FD6; --g1:#C4A8FF; --g2:#F27BCB; --g3:#FF7DB8;
     color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0F1512; --surface:#17201B; --ink:#E7EEE9; --muted:#9DABA3; --line:#2A3630;
-  --accent:#62C9A0; --accent-soft:#1D3229; --accent-ink:#0B1712;
-  --flag:#F2A170; --flag-soft:#33241A; --mark:#6B5713; --mark-ink:#FFF6D8;
+  --bg:#150F1E; --surface:#1F1729; --ink:#EFE8F7; --muted:#AB9FBD; --line:#33273F;
+  --accent:#F27BCB; --accent-soft:#33204A; --accent-ink:#1E0A1C;
+  --flag:#FF5FA8; --flag-soft:#3A1830; --mark:#7A1F5C; --mark-ink:#FFE9F6;
+  --lilac:#9B7FD6; --g1:#C4A8FF; --g2:#F27BCB; --g3:#FF7DB8;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-padding-top:150px}
 body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;padding-inline:16px;padding-block:0 64px}
+body::before{content:"";display:block;height:6px;margin-inline:-16px;background:linear-gradient(90deg,var(--lilac),var(--accent),var(--flag))}
 .wrap{max-width:1120px;margin-inline:auto}
 a{color:var(--accent)}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
 
-header.top{padding-block:40px 20px;display:grid;gap:10px;max-width:760px}
-.eyebrow{font-family:var(--font-mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.01em}
+header.top{padding-block:40px 20px;display:grid;gap:10px}
+.toprow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
+.theme{display:inline-flex;align-items:center;gap:7px;font:inherit;font-size:.88rem;font-weight:500;padding:6px 12px;border:2px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);cursor:pointer}
+.theme:hover{border-color:var(--accent)}
+.theme svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.eyebrow{font-family:var(--font-body);font-weight:600;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--font-display);font-weight:700;font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.015em;justify-self:start;padding-bottom:.08em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lede{margin:0;color:var(--muted);font-size:1.1rem;max-width:62ch}
 
 .toolbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px;border-bottom:1px solid var(--line);display:grid;gap:10px}
@@ -61,24 +71,24 @@ h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.1rem,6vw,3.
 .status{font-size:.9rem;color:var(--muted);min-height:1.4em}
 
 .quick{padding-block:28px 8px}
-.quick h2,.side h2,.extra h2{font-family:var(--font-display);font-weight:800;font-size:1.35rem;margin:0 0 14px}
+.quick h2,.side h2,.extra h2{font-family:var(--font-display);font-weight:700;font-size:1.35rem;margin:0 0 14px}
 .qgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
 .qcard{display:grid;gap:4px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink)}
 .qcard:hover{border-color:var(--accent)}
-.qcard .k{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.qcard .k{font-family:var(--font-body);font-weight:600;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .qcard .v{font-weight:700;line-height:1.35}
 
 .main{display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px;padding-block:28px}
 .side{position:sticky;top:150px;align-self:start;max-height:calc(100vh - 170px);overflow:auto;padding-right:6px}
 .side ol{list-style:none;margin:0;padding:0;display:grid;gap:14px}
-.side .g{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.side .g{font-family:var(--font-body);font-weight:600;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .side ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
 .side a{display:block;text-decoration:none;color:var(--ink);font-size:.95rem;padding:3px 8px;border-radius:6px}
 .side a:hover{background:var(--accent-soft)}
 .mobile-toc{display:none}
 
 .group{display:grid;gap:14px;margin-bottom:34px}
-.group > h2{font-family:var(--font-display);font-weight:800;font-size:1.6rem;margin:0;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.group > h2{font-family:var(--font-display);font-weight:700;font-size:1.6rem;margin:0;padding-bottom:6px;border-bottom:2px solid var(--accent);border-image:var(--grad) 1}
 .rule{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;display:grid;gap:10px;min-width:0}
 .rule.flash{animation:flash 1.6s ease-out}
 @keyframes flash{from{box-shadow:0 0 0 4px var(--accent)}to{box-shadow:0 0 0 0 transparent}}
@@ -87,7 +97,7 @@ h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.1rem,6vw,3.
 .copy{font:inherit;font-size:.82rem;color:var(--muted);background:none;border:1px solid var(--line);border-radius:6px;padding:3px 9px;cursor:pointer}
 .copy:hover{color:var(--accent);border-color:var(--accent)}
 .who{display:flex;flex-wrap:wrap;gap:6px}
-.who span{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--ink)}
+.who span{font-family:var(--font-body);font-weight:600;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--ink)}
 .body{display:grid;gap:10px;max-width:68ch}
 .body p{margin:0}
 .body ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
@@ -96,7 +106,7 @@ h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.1rem,6vw,3.
 .tbl{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-size:.98rem}
 th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
-th{font-family:var(--font-mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+th{font-family:var(--font-body);font-weight:600;font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 code,.cmd{font-family:var(--font-mono);font-size:.88em;background:var(--accent-soft);padding:1px 6px;border-radius:5px;white-space:nowrap}
 mark{background:var(--mark);color:var(--mark-ink);border-radius:3px;padding:0 1px}
 
@@ -106,7 +116,7 @@ dt{font-weight:700}
 dd{margin:0;color:var(--ink)}
 .log{display:grid;gap:10px;margin:0;padding:0;list-style:none}
 .log li{display:grid;grid-template-columns:90px 1fr;gap:12px}
-.log .d{font-family:var(--font-mono);font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.log .d{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .empty{padding:28px;border:2px dashed var(--line);border-radius:var(--radius);color:var(--muted);text-align:center}
 .foot{color:var(--muted);font-size:.9rem;padding-top:30px}
 
@@ -128,7 +138,10 @@ dd{margin:0;color:var(--ink)}
 <body>
 <div class="wrap">
   <header class="top">
-    <div class="eyebrow" id="updated">Storybook Survivor</div>
+    <div class="toprow">
+      <div class="eyebrow" id="updated">Storybook Survivor</div>
+      <button class="theme" id="theme" type="button"></button>
+    </div>
     <h1>Storybook Survivor Rules</h1>
     <p class="lede">Everything you need to know to play, watch, or sit on the jury. Search for a word, or pick who you are to see only the rules that apply to you.</p>
   </header>
@@ -266,6 +279,15 @@ dd{margin:0;color:var(--ink)}
     const who=aud==="all"?"":" for "+DATA.audiences[aud].toLowerCase();
     $("status").textContent=terms.length?(shown+" section"+(shown===1?"":"s")+" match"+(shown===1?"es":"")+" “"+query+"”"+who+"."):(aud==="all"?"Showing all "+DATA.sections.length+" sections.":"Showing "+shown+" sections"+who+".");
   }
+  // theme toggle: follows the device until the visitor picks one
+  const mq=window.matchMedia("(prefers-color-scheme: dark)");
+  const ICON={dark:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"></path></svg>',
+    light:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>'};
+  const theme=()=>document.documentElement.dataset.theme||(mq.matches?"dark":"light");
+  function paintTheme(){ const next=theme()==="dark"?"light":"dark"; $("theme").innerHTML=ICON[next]+"<span>"+(next==="dark"?"Dark mode":"Light mode")+"</span>"; }
+  $("theme").addEventListener("click",()=>{ const next=theme()==="dark"?"light":"dark"; document.documentElement.dataset.theme=next; try{ localStorage.setItem("sbs-rules-theme",next);}catch(e){} paintTheme(); });
+  mq.addEventListener("change",paintTheme);
+  paintTheme();
   function save(){ try{ localStorage.setItem("sbs-rules-aud",aud);}catch(e){} }
   function goHash(){
     const id=decodeURIComponent(location.hash.slice(1)); if(!id) return;
