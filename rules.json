@@ -1,7 +1,7 @@
 {
  "title": "Storybook Survivor Rules",
  "updated": "October 2026",
- "url": "https://itsbohe.github.io/storybook-rules",
+ "url": "https://itsbohe.github.io/storybook-rules/",
  "groups": [
   "Start here",
   "Conduct",
@@ -418,13 +418,28 @@
     "lock",
     "locked",
     "deadline",
-    "24 hours"
+    "24 hours",
+    "menu",
+    "extra vote",
+    "change vote",
+    "50 minutes"
    ],
    "body": [
     {
+     "p": "Every vote is cast with **!submitvote** in your own submission channel. Here's how it works:"
+    },
+    {
      "ul": [
-      "Every vote is cast with the command **!submitvote** in your submission channel. It asks you for your parchment image, and once you send it your vote is recorded.",
-      "You can submit a new vote any time before the Tribal Council deadline. Your latest vote is the one that counts.",
+      "Type **!submitvote**. A menu appears showing everyone you're allowed to vote for.",
+      "Pick a name from the menu.",
+      "Post your parchment image in your submission channel within 50 minutes of picking. You can also attach the image to the !submitvote message itself.",
+      "Once the image is in, your vote is recorded and a copy goes straight to production."
+     ]
+    },
+    {
+     "ul": [
+      "Changed your mind? Run !submitvote again before the deadline. Your latest vote is the one that counts.",
+      "Holding an Extra Vote? Use **!submitvote extra** to cast it. It only works if production has the advantage logged to you, and using it marks the advantage as played.",
       "If you lock your vote, it can't be changed.",
       "You can't abstain from voting.",
       "Tribal Council lasts at least 24 hours, unless everyone attending locks their vote or the episode announcement says otherwise.",
@@ -481,6 +496,7 @@
     {
      "ul": [
       "If the vote ties, there's a re-vote that lasts up to 24 hours.",
+      "In the re-vote, only the tied players can receive votes, and the tied players don't vote.",
       "During a re-vote, all alliance and 1-on-1 conversation is off limits.",
       "If the re-vote also deadlocks, there's a rock draw. Immune players and the players who were tied are safe. Everyone else draws, and whoever draws the odd rock is eliminated.",
       "Each advantage says whether it can be used in a re-vote."
@@ -495,7 +511,7 @@
    "audience": [
     "players"
    ],
-   "summary": "How to find, play and transfer advantages.",
+   "summary": "How to claim, play and transfer advantages.",
    "keywords": [
     "advantage",
     "advantages",
@@ -506,20 +522,18 @@
     "play",
     "transfer",
     "gift",
-    "find",
-    "obtain",
     "claim",
     "expire",
     "conditional"
    ],
    "body": [
     {
-     "p": "**Finding one**"
+     "p": "**Finding and claiming**"
     },
     {
      "ul": [
       "How advantages are found changes every season. The season's announcements explain it.",
-      "Once you find or obtain an advantage, it's yours. You don't need to claim it, unless its instructions say otherwise.",
+      "Claim an advantage within the time its instructions give you. If you don't, it expires and goes back into the game.",
       "Each advantage says how it's played, whether it works in a re-vote, and when it expires. If anything is unclear, ask production."
      ]
     },
@@ -569,6 +583,7 @@
       "An alliance needs 3 or more players from the same tribe. Request it in your submission channel and list who's in it.",
       "Every alliance channel opens with a note saying who asked for it.",
       "You can add someone later if every current member agrees. Post in the alliance channel with everyone's confirmation and production will add them.",
+      "Alliances carry through the merge. After the merge, members no longer need to be on the same tribe.",
       "An alliance is archived when only 2 members are left in the game, when an identical alliance already exists, or when a swap separates its members.",
       "Don't talk in alliance channels during a vote reading."
      ]
