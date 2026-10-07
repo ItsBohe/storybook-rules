@@ -88,7 +88,6 @@ h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.1rem,6vw,3.
 .copy:hover{color:var(--accent);border-color:var(--accent)}
 .who{display:flex;flex-wrap:wrap;gap:6px}
 .who span{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--ink)}
-.summary{margin:0;color:var(--muted);font-weight:700}
 .body{display:grid;gap:10px;max-width:68ch}
 .body p{margin:0}
 .body ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
@@ -220,7 +219,7 @@ dd{margin:0;color:var(--ink)}
       byGroup[g].map(s=>'<article class="rule" id="'+s.id+'" data-id="'+s.id+'"><div class="rhead"><h3>'+esc(s.title)+
         '</h3><button class="copy" type="button" data-link="'+s.id+'">Copy link</button></div>'+
         '<div class="who">'+s.audience.map(a=>"<span>"+esc(d.audiences[a])+"</span>").join("")+"</div>"+
-        '<p class="summary">'+fmt(s.summary)+'</p><div class="body">'+renderBody(s)+"</div></article>").join("")+"</section>").join("")+
+        '<div class="body">'+renderBody(s)+"</div></article>").join("")+"</section>").join("")+
       '<div class="empty" id="none" hidden></div>';
     $("toc").innerHTML=d.groups.map((g,gi)=>'<li data-group="'+gi+'"><div class="g">'+esc(g)+"</div><ul>"+
       byGroup[g].map(s=>'<li data-id="'+s.id+'"><a href="#'+s.id+'">'+esc(s.title)+"</a></li>").join("")+"</ul></li>").join("");
