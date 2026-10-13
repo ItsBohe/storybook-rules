@@ -6,7 +6,7 @@
 <title>Storybook Survivor Rules</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
 <script>try{var t=localStorage.getItem("sbs-rules-theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}</script>
 <style>
 /* Layout: a field-guide rulebook. Sticky search + audience filter up top,
@@ -17,8 +17,8 @@
   --flag:#F0308F; --flag-soft:#FFE6F2; --mark:#FFC2E2; --mark-ink:#241A33;
   --lilac:#B79CED; --g1:#6F45C9; --g2:#B0178F; --g3:#E3247F;
   --grad:linear-gradient(90deg,var(--g1),var(--g2),var(--g3));
-  --font-display:"Source Serif 4", Georgia, "Times New Roman", serif;
-  --font-body:"Inter", "Segoe UI", system-ui, sans-serif;
+  --font-display:"Rubik", "Segoe UI", system-ui, sans-serif;
+  --font-body:"Rubik", "Segoe UI", system-ui, sans-serif;
   --font-mono:"JetBrains Mono", ui-monospace, "Consolas", monospace;
   --radius:10px;
 }
@@ -53,7 +53,7 @@ header.top{padding-block:40px 20px;display:grid;gap:10px}
 .theme:hover{border-color:var(--accent)}
 .theme svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .eyebrow{font-family:var(--font-body);font-weight:600;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-h1{font-family:var(--font-display);font-weight:700;font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.015em;justify-self:start;padding-bottom:.08em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.02em;justify-self:start;padding-bottom:.08em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lede{margin:0;color:var(--muted);font-size:1.1rem;max-width:62ch}
 
 .toolbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px;border-bottom:1px solid var(--line);display:grid;gap:10px}
@@ -88,7 +88,7 @@ h1{font-family:var(--font-display);font-weight:700;font-size:clamp(2.1rem,6vw,3.
 .mobile-toc{display:none}
 
 .group{display:grid;gap:14px;margin-bottom:34px}
-.group > h2{font-family:var(--font-display);font-weight:700;font-size:1.6rem;margin:0;padding-bottom:6px;border-bottom:2px solid var(--accent);border-image:var(--grad) 1}
+.group > h2{font-family:var(--font-display);font-weight:800;font-size:1.6rem;letter-spacing:-.01em;margin:0;padding-bottom:6px;border-bottom:2px solid var(--accent);border-image:var(--grad) 1}
 .rule{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;display:grid;gap:10px;min-width:0}
 .rule.flash{animation:flash 1.6s ease-out}
 @keyframes flash{from{box-shadow:0 0 0 4px var(--accent)}to{box-shadow:0 0 0 0 transparent}}
