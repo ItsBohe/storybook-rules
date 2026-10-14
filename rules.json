@@ -358,7 +358,7 @@
     {
      "ul": [
       "Challenge instructions are posted in #challenges at the start of each episode. Read them there before asking questions.",
-      "Clarifications are posted with a ping in #challenge-results.",
+      "Clarifications are posted with a ping in #challenge-discussion.",
       "You get one answer or attempt per challenge unless the instructions say otherwise.",
       "Breaking a challenge rule voids your score. Voided scores are final and you can't redo the challenge unless production says so.",
       "If two scores tie, production uses the tiebreaker in the instructions. If the instructions don't list one, production picks one.",
@@ -511,7 +511,7 @@
    "audience": [
     "players"
    ],
-   "summary": "How to find, play and transfer advantages.",
+   "summary": "How to claim, play and transfer advantages.",
    "keywords": [
     "advantage",
     "advantages",
@@ -522,20 +522,18 @@
     "play",
     "transfer",
     "gift",
-    "find",
-    "obtain",
     "claim",
     "expire",
     "conditional"
    ],
    "body": [
     {
-     "p": "**Finding one**"
+     "p": "**Finding and claiming**"
     },
     {
      "ul": [
       "How advantages are found changes every season. The season's announcements explain it.",
-      "Once you find or obtain an advantage, it's yours. You don't need to claim it, unless its instructions say otherwise.",
+      "Claim an advantage within the time its instructions give you. If you don't, it expires and goes back into the game.",
       "Each advantage says how it's played, whether it works in a re-vote, and when it expires. If anything is unclear, ask production."
      ]
     },
@@ -585,6 +583,7 @@
       "An alliance needs 3 or more players from the same tribe. Request it in your submission channel and list who's in it.",
       "Every alliance channel opens with a note saying who asked for it.",
       "You can add someone later if every current member agrees. Post in the alliance channel with everyone's confirmation and production will add them.",
+      "Alliances carry through the merge. After the merge, members no longer need to be on the same tribe.",
       "An alliance is archived when only 2 members are left in the game, when an identical alliance already exists, or when a swap separates its members.",
       "Don't talk in alliance channels during a vote reading."
      ]
@@ -1111,7 +1110,7 @@
  "changelog": [
   {
    "date": "10/2026",
-   "change": "Moved the rules to this page. Added juror voting rules: jurors must ask at least one question to vote, and votes are due 48 hours after opening statements are posted. Voice calls now need a host in the call. Confessionals need at least one post per episode, ideally answering that episode's confessional question. Jurors can only talk about the game in ponderosa. Combined the two vote strikes into one. The vote command is now !submitvote (one exclamation mark). Challenge clarifications now go in #challenge-results. Spectator reactions are now turned off in game channels. Added a glossary."
+   "change": "Moved the rules to this page. Added juror voting rules: jurors must ask at least one question to vote, and votes are due 48 hours after opening statements are posted. Voice calls now need a host in the call. Confessionals need at least one post per episode, ideally answering that episode's confessional question. Jurors can only talk about the game in ponderosa. Combined the two vote strikes into one. The vote command is now !submitvote (one exclamation mark). Challenge clarifications now go in #challenge-discussion. Spectator reactions are now turned off in game channels. Added a glossary."
   },
   {
    "date": "4/21/26",
