@@ -496,7 +496,9 @@
     {
      "ul": [
       "If the vote ties, there's a re-vote that lasts up to 24 hours.",
-      "In the re-vote, only the tied players can receive votes, and the tied players don't vote.",
+      "In the re-vote, only the tied players can receive votes. Normally the tied players don't vote, since they could only vote for each other.",
+      "The exception: if more votes were cast in the original vote than there are players at Tribal Council (for example, because an Extra Vote was played), everyone at Tribal Council votes in the re-vote, the tied players included.",
+      "In that case, a tied player can only vote for another tied player, never themselves.",
       "During a re-vote, all alliance and 1-on-1 conversation is off limits.",
       "If the re-vote also deadlocks, there's a rock draw. Immune players and the players who were tied are safe. Everyone else draws, and whoever draws the odd rock is eliminated.",
       "Each advantage says whether it can be used in a re-vote."
@@ -1108,6 +1110,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "10/2026",
+   "change": "Re-votes now include everyone when more votes were cast than players at Tribal Council."
+  },
   {
    "date": "10/2026",
    "change": "Moved the rules to this page. Added juror voting rules: jurors must ask at least one question to vote, and votes are due 48 hours after opening statements are posted. Voice calls now need a host in the call. Confessionals need at least one post per episode, ideally answering that episode's confessional question. Jurors can only talk about the game in ponderosa. Combined the two vote strikes into one. The vote command is now !submitvote (one exclamation mark). Challenge clarifications now go in #challenge-discussion. Spectator reactions are now turned off in game channels. Added a glossary."
