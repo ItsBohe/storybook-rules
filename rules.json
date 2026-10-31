@@ -497,7 +497,7 @@
      "ul": [
       "If the vote ties, there's a re-vote that lasts up to 24 hours.",
       "In the re-vote, only the tied players can receive votes. Normally the tied players don't vote, since they could only vote for each other.",
-      "The exception: if more votes were cast than there are voters at Tribal Council (for example, because an Extra Vote was played), everyone at Tribal Council votes in the re-vote, the tied players included. A player who can't vote at that Tribal doesn't count as a voter.",
+      "The exception: if more votes were cast than there are voters at Tribal Council (for example, because an Extra Vote was played), everyone who can vote at Tribal Council votes in the re-vote, the tied players included. A voter is a player who gets a normal vote at that Tribal. A player whose vote is blocked or stolen still counts as a voter.",
       "In that case, a tied player can only vote for another tied player, never themselves.",
       "During a re-vote, all alliance and 1-on-1 conversation is off limits.",
       "If the re-vote also deadlocks, there's a rock draw. Immune players and the players who were tied are safe. Everyone else draws, and whoever draws the odd rock is eliminated.",
