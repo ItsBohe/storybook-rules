@@ -1,6 +1,6 @@
 {
  "title": "Storybook Survivor Rules",
- "updated": "October 2026",
+ "updated": "November 2026",
  "url": "https://itsbohe.github.io/storybook-rules/",
  "groups": [
   "Start here",
@@ -521,6 +521,9 @@
     "idols",
     "extra vote",
     "steal a vote",
+    "vote block",
+    "vote-modifying",
+    "live",
     "play",
     "transfer",
     "gift",
@@ -546,7 +549,8 @@
      "ul": [
       "Before the vote reading starts, you must do one of these: tell production exactly how you're playing it, or tell production you might play it live.",
       "During Tribal Council, production will say: \"If anyone has an idol or an advantage and would like to play it, now is the time to do so.\" You get about 10 to 20 seconds to play it.",
-      "You can set conditions, like \"If Player A plays an idol, play my idol on Player B.\" If the condition doesn't happen, your advantage isn't used and you keep it."
+      "You can set conditions, like \"If Player A plays an idol, play my idol on Player B.\" If the condition doesn't happen, your advantage isn't used and you keep it.",
+      "Vote-modifying advantages (Extra Votes, vote blocks and Steal a Vote) are the exception. They must be played before the vote reading starts. You can't play them live or in reaction to something that happens during the vote reading."
      ]
     },
     {
@@ -1110,6 +1114,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "11/2026",
+   "change": "Vote-modifying advantages (Extra Votes, vote blocks and Steal a Vote) must be played before the vote reading starts. They can't be played live or in reaction to something during the vote reading."
+  },
   {
    "date": "10/2026",
    "change": "Re-votes now include everyone when more votes were cast than there are voters at Tribal Council."
